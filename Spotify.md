@@ -41,7 +41,7 @@ To run the project create a VM instance, generate the SSH keys for it
 
 
 then spin up a VM, create a Service account that will be used later to load data to GCS and BQ
-![Alt text](images/image-1.png)
+![Alt text](Git/images/image-1.png)
 provide the service account with appropriate access, 
 Storage Admin, Storage Object Admin and Big Query Admin should be sufficient. Generate keys for the service account(this wil be used later in prefect blocks).
 
