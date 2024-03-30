@@ -1,0 +1,31 @@
+
+    [
+      {
+        "name": "artists",
+        "type": "string"
+      },
+      {
+        "name": "duration_ms",
+        "type": "integer"
+      },
+      {
+        "name": "popularity",
+        "type": "integer"
+      },
+      {
+        "name": "song_name",
+        "type": "string"
+      },
+      {
+        "name": "song_preview",
+        "type": "string"
+      },
+      {
+        "name": "rank_on_chart",
+        "type": "integer"
+      },
+      {
+        "name": "duration",
+        "type": "float"
+      }
+    ]
