@@ -41,7 +41,7 @@ To run the project create a VM instance, generate the SSH keys for it
 
 
 then spin up a VM, create a Service account that will be used later to load data to GCS and BQ
-![Alt text](Git/images/image-1.png)
+![image-1.png](Git%2Fimages%2Fimage-1.png)![Alt text](Git/images/image-1.p
 provide the service account with appropriate access, 
 Storage Admin, Storage Object Admin and Big Query Admin should be sufficient. Generate keys for the service account(this wil be used later in prefect blocks).
 
@@ -59,7 +59,7 @@ Bigquery Datasets").
 [prefect Cloud](https://docs.prefect.io/2.10.21/cloud/cloud-quickstart/), or you can run the prefect server locally.
 
 * Login to your prefect cloud, go to blocks, search GCP Credentials and create a prefect block.
-![image-2.png](images%2Fimage-2.png)
+![image-2.png](Git%2Fimages%2Fimage-2.png)
 just add the required details
 
 * create a GCS Bucket block using the same steps above and the bucket we created using while setting up GCP cloud.
@@ -80,15 +80,15 @@ or if you want to run specific files, you can also do that, just replace the loa
 * After the data is successfully in the BQ, you can test that out by querying the table using BQ query tool.
 
 * then click on Explore Data Option
-![image-4.png](images%2Fimage-4.png)
+![image-4.png](Git%2Fimages%2Fimage-4.png)
 
 That should route you to looker, create an account and then you can crate a report using the Data in your BQ table.
 [Looker Report](https://support.google.com/looker-studio/answer/12141699?hl=en#:~:text=a%20product%20integration-,Create%20a%20new,Sign%20in%20to%20Looker%20Studio.&text=Create%2C%20then%20select%20Report.,data%20and%20My%20data%20sources "Looker Report").
 
 Some Example Screenshots.
-![image-5.png](images%2Fimage-5.png)
-![image-6.png](images%2Fimage-6.png)
-![image-7.png](images%2Fimage-7.png)
+![image-5.png](Git%2Fimages%2Fimage-5.png)
+![image-6.png](Git%2Fimages%2Fimage-6.png)
+![image-7.png](Git%2Fimages%2Fimage-7.png)
 
 
 ## Extras
